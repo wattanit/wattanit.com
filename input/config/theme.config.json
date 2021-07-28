@@ -25,7 +25,7 @@
         "imageEffects": false,
         "imageFilter": "saturate",
         "imageFilterValue": "1",
-        "textHero": "<h1>Wattanit Hotrakool</h1>\n<p>My personal website</p>",
+        "textHero": "<h1><a href=\"about.html\" style=\"decoration: none;\">Wattanit Hotrakool</a></h1>\n<p>My personal website</p>",
         "heroTextColor": "#FFFFFF",
         "heroBorderColor": "rgba(255, 255, 255, 0.2)",
         "primaryColor": "#2E35A6",
