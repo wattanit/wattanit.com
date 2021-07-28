@@ -18,7 +18,7 @@
         "heroHeight": "40vh",
         "heroBg": "#000000",
         "displayHeroImage": true,
-        "uploadHero": "",
+        "uploadHero": "media/website/roksolana-zasiadko-aSCihnn25Jc-unsplash.jpg",
         "uploadHeroAlt": "",
         "uploadHeroCaption": "",
         "heroOverlay": "rgba(0, 0, 0, 0.2)",

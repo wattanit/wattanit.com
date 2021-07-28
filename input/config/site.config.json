@@ -100,7 +100,7 @@
         "ampShareWhatsapp": 1,
         "ampFooterText": "",
         "ampGaId": "",
-        "customHeadCode": "<script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script>\n<script type=\"text/javascript\" id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>",
+        "customHeadCode": "<script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script>\n<script type=\"text/javascript\" id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>\n<link rel=\"stylesheet\" href=\"https://pro.fontawesome.com/releases/v5.10.0/css/all.css\" integrity=\"sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p\" crossorigin=\"anonymous\"/>",
         "customHeadAmpCode": "",
         "customBodyCode": "",
         "customFooterCode": "",
@@ -140,7 +140,7 @@
         "relatedPostsCriteria": "titles-and-tags",
         "relatedPostsIncludeAllPosts": true,
         "editors": {
-            "wysiwygAdditionalValidElements": "",
+            "wysiwygAdditionalValidElements": "i[*]",
             "codemirrorTabSize": 4,
             "codemirrorAutoIndent": true
         },
