@@ -7,7 +7,7 @@
         "color": 1,
         "icon": "web-layers"
     },
-    "domain": "",
+    "domain": "https://wattanit.github.io/wattanit.com",
     "language": "en-gb",
     "spellchecking": false,
     "advanced": {
@@ -150,7 +150,7 @@
         }
     },
     "deployment": {
-        "protocol": "",
+        "protocol": "github-pages",
         "relativeUrls": false,
         "port": "",
         "server": "",
@@ -170,14 +170,15 @@
             "bucket": "",
             "region": "",
             "prefix": "",
-            "acl": "public-read"
+            "acl": "public-read",
+            "removeFiles": false
         },
         "github": {
             "server": "api.github.com",
-            "user": "",
-            "repo": "",
-            "branch": "",
-            "token": "",
+            "user": "wattanit",
+            "repo": "https://github.com/wattanit/wattanit.com",
+            "branch": "master",
+            "token": "publii-gh-token uuid-1627462686171-786557777",
             "parallelOperations": 1,
             "apiRateLimiting": 1
         },
