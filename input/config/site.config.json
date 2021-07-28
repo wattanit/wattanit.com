@@ -100,7 +100,7 @@
         "ampShareWhatsapp": 1,
         "ampFooterText": "",
         "ampGaId": "",
-        "customHeadCode": "",
+        "customHeadCode": "<script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script>\n<script type=\"text/javascript\" id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>",
         "customHeadAmpCode": "",
         "customBodyCode": "",
         "customFooterCode": "",
@@ -143,6 +143,10 @@
             "wysiwygAdditionalValidElements": "",
             "codemirrorTabSize": 4,
             "codemirrorAutoIndent": true
+        },
+        "customHTML": {
+            "beforePost": "",
+            "afterPost": ""
         }
     },
     "deployment": {
