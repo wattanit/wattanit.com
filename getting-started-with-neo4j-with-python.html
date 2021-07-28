@@ -1,0 +1,159 @@
+<!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Getting Started With Neo4j With Python - wattanit.com</title><meta name="description" content="Recently I was working with a research project that revolved around the use of graph analysis techniques and graph data modelling. To do that we were required to switch to using a new set of tools to work with, which are better suited for graph&hellip;"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://wattanit.github.io/wattanit.com/getting-started-with-neo4j-with-python.html"><link rel="alternate" type="application/atom+xml" href="https://wattanit.github.io/wattanit.com/feed.xml"><link rel="alternate" type="application/json" href="https://wattanit.github.io/wattanit.com/feed.json"><meta property="og:title" content="Getting Started With Neo4j With Python"><meta property="og:site_name" content="wattanit.com"><meta property="og:description" content="Recently I was working with a research project that revolved around the use of graph analysis techniques and graph data modelling. To do that we were required to switch to using a new set of tools to work with, which are better suited for graph&hellip;"><meta property="og:url" content="https://wattanit.github.io/wattanit.com/getting-started-with-neo4j-with-python.html"><meta property="og:type" content="article"><style>:root{--body-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--heading-font:var(--body-font);--logo-font:var(--body-font);--menu-font:var(--body-font)}</style><link rel="stylesheet" href="https://wattanit.github.io/wattanit.com/assets/css/style.css?v=1bb87ff840ef67c46a3f28b22f2496f6"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://wattanit.github.io/wattanit.com/getting-started-with-neo4j-with-python.html"},"headline":"Getting Started With Neo4j With Python","datePublished":"2020-04-26T19:01","dateModified":"2021-07-28T19:03","description":"Recently I was working with a research project that revolved around the use of graph analysis techniques and graph data modelling. To do that we were required to switch to using a new set of tools to work with, which are better suited for graph&hellip;","author":{"@type":"Person","name":"Wattanit Hotrakool"},"publisher":{"@type":"Organization","name":"Wattanit Hotrakool"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"></head><body><div class="container js-container"><nav class="menu"><ul class="navbar__menu"><li><a href="https://wattanit.github.io/wattanit.com/" target="_self">Home</a></li><li class="has-submenu"><span>Work</span><ul class="navbar__submenu"><li><a href="https://wattanit.github.io/wattanit.com/research.html" target="_self">Research</a></li><li><span>Software</span></li></ul></li><li><a href="https://wattanit.github.io/wattanit.com/about.html" target="_self">About</a></li></ul></nav><div class="content"><header class="top"><div class="top__item"><a class="logo" href="https://wattanit.github.io/wattanit.com/">wattanit.com</a></div><div class="top__item top__item--right"><button class="menu-toggle js-menu-toggle" aria-label="Menu" aria-expanded="false"><span class="menu-toggle-box"><span class="menu-toggle-inner">Menu</span></span></button></div></header><main class="main"><article class="post"><div class="main__left"><figure class="hero"><img src="https://wattanit.github.io/wattanit.com/media/website/roksolana-zasiadko-aSCihnn25Jc-unsplash.jpg" srcset="https://wattanit.github.io/wattanit.com/media/website/responsive/roksolana-zasiadko-aSCihnn25Jc-unsplash-xs.jpg 300w, https://wattanit.github.io/wattanit.com/media/website/responsive/roksolana-zasiadko-aSCihnn25Jc-unsplash-sm.jpg 480w, https://wattanit.github.io/wattanit.com/media/website/responsive/roksolana-zasiadko-aSCihnn25Jc-unsplash-md.jpg 768w, https://wattanit.github.io/wattanit.com/media/website/responsive/roksolana-zasiadko-aSCihnn25Jc-unsplash-lg.jpg 1024w, https://wattanit.github.io/wattanit.com/media/website/responsive/roksolana-zasiadko-aSCihnn25Jc-unsplash-xl.jpg 1280w, https://wattanit.github.io/wattanit.com/media/website/responsive/roksolana-zasiadko-aSCihnn25Jc-unsplash-2xl.jpg 1600w" sizes="(min-width: 61.3125em) 50vw, 100vw" loading="eager" width="1920" height="2880" alt=""></figure><header><h1>Getting Started With Neo4j With Python</h1><p><time datetime="2020-04-26T19:01">April 26, 2020 </time>by <a href="https://wattanit.github.io/wattanit.com/authors/wattanit-hotrakool/" rel="author" title="Wattanit Hotrakool">Wattanit Hotrakool</a></p></header></div><div class="main__right"><div class="post__entry"><p>Recently I was working with a research project that revolved around the use of graph analysis techniques and graph data modelling. To do that we were required to switch to using a new set of tools to work with, which are better suited for graph data structure.</p><h2 id="what-graph">What graph?</h2><p>Graph in the perspective of data scientists and programmers are different from what people tend to think of as graphs. They are not 2D plots (or sometimes 3D) that show relations between things (which is technically called a chart), but rather a structure representing relationships between objects. The graph here refers to the kind of graph talked about by mathematicians, a structure consists of objects (nodes) and their relationship (edges)</p><p></p><figure class="post__image"><img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/15/6n-graf.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/15/responsive/6n-graf-xs.png 300w, https://wattanit.github.io/wattanit.com/media/posts/15/responsive/6n-graf-sm.png 480w, https://wattanit.github.io/wattanit.com/media/posts/15/responsive/6n-graf-md.png 768w" alt="Image description" width="266" height="176"></figure><p></p><p>For data scientists and programmers, they take this meaning further. To them, graph is a kind of data structure designed and optimised to represent data with relations. Roughly speaking, to work with data, there are usually two tools in the stack involved:</p><ol><li>Data storage</li><li>Data analysis package</li></ol><p>For standard tubular data, the data storage could be a relational database. The queried data is then analysed using an analysis package like <a href="https://pandas.pydata.org/">Pandas</a>, for example. The same thing goes for graph data too. For graph data, by far, the most popular analysis tool is <a href="https://networkx.github.io/">NetworkX</a>. This is a very convenient package to perform analysis on any sort of network data structure, with lots of features and extensive supports for other packages. However, when it comes to the data storage, the most popular graph database is <a href="https://neo4j.com/">Neo4j</a>.</p><p>Neo4j uses its matual query language called Cypher. Personally, Cypher is very powerful and by far the most flexible way to query the complicated graph relations. (You can get started with Cypher <a href="https://neo4j.com/developer/cypher-query-language/">here</a>) However, this article will show another way to work with Neo4j - via using Python programming language.</p><h2 id="installing-neo4j-and-py2neo">Installing Neo4j and Py2Neo</h2><p>In this quide we have chosen to use Py2Neo instead of the official Neo4j Python driver for the following reason:</p><ol><li>Py2Neo has better integration with other libraries in Python data science stacks such as Pandas and Numpy.</li><li>Py2Neo gives a high level abstraction called Object Graph Mapping (OGM) that is really useful in terms of data modeling.</li></ol><p>Py2Neo mostly work in-memory, however. So if you are looking for something to work with large-scale production servers, the official driver could be a better choice.</p><h3 id="install-neo4j-desktop">Install Neo4j Desktop</h3><p>To install Neo4j for local development, we first download and install Neo4j Desktop. Neo4j desktop can be downloaded from <a href="https://neo4j.com/download-center/#desktop">https://neo4j.com/download-center/#desktop</a></p><h3 id="install-py2neo-via-pip">Install Py2Neo via pip</h3><p>Simply run <code>pip install py2neo</code> at your terminal.</p><blockquote><p><strong>REMARK for April 2020</strong></p><p>As the time of writing, Neo4j just launched a new major version, which is incompatible with most libraries in the standard repositories. Apparently the Neo4j desktop 1.2.7 comes with Neo4j Server 4.0 (changed from 3.5), which just released by the end of March 2020. Installing py2neo from PyPI repository (the default of pip install) will install py2neo 4.3 which only supports up to Neo4j 3.5. Many things will not work with py2neo 4.3 and Neo4j 4.</p><p><strong>Temporary workaround</strong> is to install py2neo 5 which support Neo4j 4 directly from github via <code>pip install git+https://github.com/technige/py2neo.git</code></p></blockquote><h2 id="connecting-to-database">Connecting to database</h2><p>Now that we have installed Neo4j and Py2Neo, it time to get started.</p><p>Neo4j organises multiple databases as a project. One database consists of one graph. For Neo4j Desktop, one database (thus, one graph) can be active at a time. Active database is selected via Neo4j Desktop app.</p><p>Get the main graph - object representing the graph in the database - by providing the database URI.</p><pre><code class="language-python">from py2neo import Graph, Node, Relationship
+graph = Graph(&quot;bolt://localhost:7687&quot;, password=&quot;password&quot;)
+</code></pre><h2 id="node-relationship-and-subgraph">Node, Relationship, and Subgraph</h2><p>Py2neo models graph nodes and relationships with Node and Relationship objects. Each object can be created and operated like a regular python object.</p><p>A subgraph is a collection of nodes and relationships. Py2Neo mainly interact with Neo4j using subgraphs.</p><h3 id="create-nodes-and-relationships">Create nodes and relationships</h3><p>To create nodes and relationships:</p><pre><code class="language-python"># Create nodes
+A = Node(&quot;PersonType&quot;, name=&quot;A demo name&quot;)
+B = Node(&quot;PersonType&quot;, name=&quot;B demo name&quot;)
+C = Node(&quot;PersonType&quot;, name=&quot;C demo name&quot;)
+
+# Create relationships
+ab = Relationship(A,&quot;friends_to&quot;,B, years=4)
+cb = Relationship(C,&quot;friends_to&quot;,B, years=3)
+</code></pre><p>The first argument of Node is the node type whereas the second argument of Relationship is the relationship type. Both Node and Relationship can have arbitrary number of <em>properties</em>.</p><p>Nodes and relationships are subgraph by themselves. We can create a new subgraph by using standard set operations (e.g. union, intersection):</p><pre><code class="language-python"># Create subgraph by union relationships 
+abc = ab | cb
+</code></pre><p>Subgraph can be used to manipulate the main Graph directly or by forming into a Transaction.</p><pre><code class="language-python"># create the graph using the subgraph directly
+graph.create(abc)
+</code></pre><p>All the codes above creates a graph equivalent to the result of the following Cypher statement:</p><pre><code># Cypher
+CREATE (A:PersonType {name:&quot;A demo name&quot;})-[ab:To]-&gt;(B:PersonType {name:&quot;B demo name&quot;}),
+       (C:PersonType {name:&quot;C demo name&quot;})-[cb:To]-&gt;(B)
+</code></pre><p>The result can be viewed using Neo4j browser (open via Neo4j Desktop app) and run the following cypher query</p><pre><code>MATCH (m) RETURN m
+</code></pre><p></p><figure class="post__image"><img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/15/graph1.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph1-xs.png 300w, https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph1-sm.png 480w, https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph1-md.png 768w" alt="Image description" width="1722" height="1024"></figure><p></p><h3 id="merge-subgraph">Merge subgraph</h3><p>New subgraph can be merge into the existing graph using the merge operation like so:</p><pre><code class="language-python"># merge (update) a node and relationship into the graph 
+# REMARK: multiple create statements will create multiple disconnected subgraph in the main graph
+D = Node(&quot;AnimalType&quot;, name=&quot;Dogg&quot;)
+da = Relationship(D, &quot;belong_to&quot;, A, years=2)
+graph.merge(da, &quot;A demo name&quot;, &quot;name&quot;)
+</code></pre><p>The above code is equivalent to the following Cypher statement:</p><pre><code># Cypher
+MATCH (A {name:&quot;A demo name&quot;}) MERGE (D:AnimalType {name: &quot;Dogg&quot;})-[:belong_to]-&gt;(A)
+</code></pre><p></p><figure class="post__image"><img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/15/graph2.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph2-xs.png 300w, https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph2-sm.png 480w, https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph2-md.png 768w" alt="Image description" width="1722" height="1022"></figure><p></p><h3 id="delete-subgraph">Delete subgraph</h3><p>The subgraph could be deleted from the main graph. There are two kind of deletion in Py2Neo: delete and separate. Delete gets rid of both the nodes and relationships in the subgraph, while Separate only get rids of the relationships without removing the nodes.</p><pre><code class="language-python"># delete a subgraph
+graph.delete(da) # this deletes node A, node D and relationship da
+graph.separate(abc) # this deletes relationship between ab and cb without deleting B and C
+graph.delete(B) # this deletes node B and relationship cb
+graph.delete(C) # this deletes node C, leaving the main graph empty
+</code></pre><h2 id="transaction">Transaction</h2><p>Several graph operations can be grouped together as a transaction. Multiple operations can be performed programatically before the transaction is committed, i.e. execute on Neo4j. Using transactions consist of three steps:</p><ol><li>create a new transaction</li><li>perform graph operations onto transaction</li><li>commit the transaction to Neo4j</li></ol><p>The direct graph operations we used previously are basically “autocommit” transaction - a transaction with only one operation that commits automatically.</p><pre><code class="language-python"># Create a transaction
+tx = graph.begin()
+# Create a subgraph
+A = Node(&quot;PersonType&quot;, name=&quot;A demo name&quot;)
+B = Node(&quot;PersonType&quot;, name=&quot;B demo name&quot;)
+C = Node(&quot;PersonType&quot;, name=&quot;C demo name&quot;)
+ab = Relationship(A,&quot;friends_to&quot;,B, years=4)
+cb = Relationship(C,&quot;friends_to&quot;,B, years=3)
+abc = ab | cb
+tx.create(abc)
+# Merge a subgraph
+D = Node(&quot;AnimalType&quot;, name=&quot;Dogg&quot;)
+da = Relationship(D, &quot;belong_to&quot;, A, years=2)
+tx.merge(da, &quot;A demo name&quot;, &quot;name&quot;)
+# Commit the transaction
+tx.commit()
+</code></pre><p>This transaction results the same graph we previously deleted in the previous section.</p><h2 id="direct-cypher-operation">Direct Cypher operation</h2><p>Both Graph and Transaction supports run() method that take a Cypher string.</p><p>To delete subgraph using Cypher query:</p><pre><code class="language-python"># delete everything again
+graph.run(&quot;MATCH (m)-[r]-&gt;(n) DELETE m,r,n&quot;)
+</code></pre><p>We can then recreate the same graph again by</p><pre><code class="language-python"># Recreate everything again
+graph.run(&quot;&quot;&quot;CREATE (A:PersonType {name:&quot;A demo name&quot;})-[ab:To]-&gt;(B:PersonType {name:&quot;B demo name&quot;}),
+(C:PersonType {name:&quot;C demo name&quot;})-[cb:To]-&gt;(B),
+(D:AnimalType {name: &quot;Dogg&quot;})-[:belong_to]-&gt;(A)
+&quot;&quot;&quot;)
+</code></pre><h2 id="retrieving-data-from-neo4j">Retrieving Data from Neo4j</h2><p>There are two main way of retrieving data from Neo4j</p><ol><li>Cursor object from Graph.run() and Transaction.run()</li><li>Match objects</li></ol><h3 id="cursor-object">Cursor object</h3><p>Cursor objects are the result of the run method which gives you the database cursor.</p><p>The following query</p><pre><code class="language-python"># Run a query using Cypher
+query_cursor = graph.run(&quot;&quot;&quot;MATCH (b {name: &quot;B demo name&quot;})&lt;-[r]-(n:PersonType) return b,r,n&quot;&quot;&quot;)
+</code></pre><p>will result in</p><pre><code>Node(&#39;PersonType&#39;, name=&#39;B demo name&#39;)    To(Node(&#39;PersonType&#39;, name=&#39;A demo name&#39;), Node(&#39;PersonType&#39;, name=&#39;B demo name&#39;))    Node(&#39;PersonType&#39;, name=&#39;A demo name&#39;)
+Node(&#39;PersonType&#39;, name=&#39;B demo name&#39;)    To(Node(&#39;PersonType&#39;, name=&#39;C demo name&#39;), Node(&#39;PersonType&#39;, name=&#39;B demo name&#39;))    Node(&#39;PersonType&#39;, name=&#39;C demo name&#39;)
+</code></pre><p>The cursor are iterable, so we can do this:</p><pre><code class="language-python"># transverse the query result using iterator and interested only in relationship
+query_cursor = graph.run(&quot;&quot;&quot;MATCH (b {name: &quot;B demo name&quot;})&lt;-[r]-(n:PersonType) return b,r,n&quot;&quot;&quot;)
+for result in  query_cursor:
+    print(result[&quot;r&quot;])
+</code></pre><p>which results in</p><pre><code>(A demo name)-[:To {}]-&gt;(B demo name)
+(C demo name)-[:To {}]-&gt;(B demo name)
+</code></pre><p>Cursor.data() method will simply get everything in one big object.</p><pre><code class="language-python"># view the query result in one shot
+query_cursor = graph.run(&quot;&quot;&quot;MATCH (b {name: &quot;B demo name&quot;})&lt;-[r]-(n:PersonType) return b,r,n&quot;&quot;&quot;)
+print(query_cursor.data())
+</code></pre><p>results in</p><pre><code>[{&#39;b&#39;: Node(&#39;PersonType&#39;, name=&#39;B demo name&#39;), &#39;r&#39;: To(Node(&#39;PersonType&#39;, name=&#39;A demo name&#39;), Node(&#39;PersonType&#39;, name=&#39;B demo name&#39;)), &#39;n&#39;: Node(&#39;PersonType&#39;, name=&#39;A demo name&#39;)}, {&#39;b&#39;: Node(&#39;PersonType&#39;, name=&#39;B demo name&#39;), &#39;r&#39;: To(Node(&#39;PersonType&#39;, name=&#39;C demo name&#39;), Node(&#39;PersonType&#39;, name=&#39;B demo name&#39;)), &#39;n&#39;: Node(&#39;PersonType&#39;, name=&#39;C demo name&#39;)}]
+</code></pre><p>Cursor can be converted to many things including ndarray, pd.Series, and a subgraph.</p><pre><code class="language-python"># convert result to pd.Series
+import pandas as pd
+query_cursor = graph.run(&quot;&quot;&quot;MATCH (b {name: &quot;B demo name&quot;})&lt;-[r]-(n:PersonType) return n.name&quot;&quot;&quot;)
+query_cursor.to_series()
+
+# convert result to subgraph
+query_cursor = graph.run(&quot;&quot;&quot;MATCH (b {name: &quot;B demo name&quot;})&lt;-[r]-(n:PersonType) return  b,r,n&quot;&quot;&quot;)
+B_friendship = query_cursor.to_subgraph()
+</code></pre><h2 id="match-object">Match Object</h2><p>There are to type of match objects: NodeMatcher and RelationshipMacther. Match object allow complex node and relationship matching and return a iterable set of matched nodes/relationships.</p><pre><code class="language-python">from py2neo import NodeMatcher, RelationshipMatcher
+
+# Match nodes with name &quot;A demo name&quot;
+matcher = NodeMatcher(graph)
+node_match = matcher.match(&quot;PersonType&quot;, name=&quot;A demo name&quot;)
+for match in node_match:
+    print(match)
+
+# return
+# (Dogg)-[:belong_to {}]-&gt;(A demo name)
+</code></pre><pre><code class="language-python"># Match relationship with type &quot;belong_to&quot;
+matcher = RelationshipMatcher(graph)
+rel_match = matcher.match(nodes=None, r_type=&quot;belong_to&quot;)
+for match in rel_match:
+    print(match)
+
+# return
+# (Dogg)-[:belong_to {}]-&gt;(A demo name)
+</code></pre><h2 id="object-graph-mapping">Object-Graph Mapping</h2><p>Object-Graph Mapping (OGM) allows the construction of classes and objects that represent the node and relationship in Graph.</p><p>By using OGM style, the graph is now represented by a group of OGM objects. Graph’s nodes are represented by OGM objects, while relationships are represented only as OGM objects’ preperties. Note that with OGM, the graph is represented with the notions of objects so it must be approached as such. For example, there is no distinct concept between CREATE and MERGE as both are considered to be the same operation for OGM.</p><blockquote><p>For a GraphObject, create and merge are an identical operation. This is because GraphObject instances have uniqueness defined by their primary label and primary key and so both operations can be considered a form of merge. If a corresponding remote node does not exist, one will be created.</p></blockquote><p>Primary key can be easily set with OGM, where the default uses in normal Neo4j is “id” (running number). Thus it is possible to set primary key to be deterministic and prevent object duplication.</p><h3 id="import-ogm">Import OGM</h3><pre><code class="language-python"># import GraphObject
+from py2neo.ogm import GraphObject, Property, Label, RelatedTo
+</code></pre><pre><code class="language-python"># (optional) delete old data
+graph.run(&quot;MATCH (m)-[r]-&gt;(n) DELETE m,r,n&quot;)
+graph.run(&quot;MATCH (m) DELETE m&quot;)
+</code></pre><h3 id="create-ogm-classes">Create OGM classes</h3><p>We can create OGM classes by extending GraphObject class.</p><pre><code class="language-python"># Create OGM
+class PersonType(GraphObject):
+    __primarykey__ = &quot;name&quot;
+    
+    name = Property()  # node property
+    isChild = Label() # boolean &quot;tag&quot;
+    
+    friend_to = RelatedTo(&quot;PersonType&quot;)
+    
+    def __init__(self, name):
+        self.name = name
+        
+    def addFriend(self, friend, years=0):
+        self.friend_to.add(friend, {&quot;years&quot;: years})
+    
+class AnimalType(GraphObject):
+    __primarykey__ = &quot;name&quot;
+    
+    name = Property()
+    
+    belong_to = RelatedTo(&quot;PersonType&quot;)
+    
+    def __init__(self,  name):
+        self.name = name
+                  
+    def addOwner(self, owner, years=0):
+        self.belong_to.add(owner, {&quot;years&quot;: years})
+</code></pre><h3 id="create-graph">Create graph</h3><p>Once the OGM classes are defined, we can simply create the graph by first create the objects:</p><pre><code class="language-python"># create OGM objects
+A = PersonType(&quot;A demo name&quot;)
+B = PersonType(&quot;B demo name&quot;)
+C = PersonType(&quot;C demo name&quot;)
+D = AnimalType(&quot;Dogg&quot;)
+</code></pre><p>Then add the relationship using the object’s method:</p><pre><code class="language-python"># Add relationship
+A.addFriend(B, years=4)
+C.addFriend(B, years=3)
+D.addOwner(A, years=2)
+</code></pre><p>THen we can simply insert each object into the main graph:</p><pre><code class="language-python"># Create graph
+graph.create(A)
+graph.create(B)
+graph.create(C)
+graph.create(D)
+</code></pre><p>To add more object is trivial:</p><pre><code class="language-python"># Add more node
+E = AnimalType(&quot;Birdy&quot;)
+E.addOwner(B, years=1)
+graph.create(E)
+</code></pre><p></p><figure class="post__image"><img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/15/graph3.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph3-xs.png 300w, https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph3-sm.png 480w, https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph3-md.png 768w" alt="Image description" width="1720" height="1022"></figure><p></p><p>OGM can also be used to match the object in the main graph too.</p><pre><code class="language-python"># Match object in graph
+target = PersonType.match(graph, &quot;A demo name&quot;)
+for node in target:
+    print(node)
+</code></pre><p>results in</p><pre><code>&lt;PersonType name=&#39;A demo name&#39;&gt;
+</code></pre><h2 id="conclusions">Conclusions</h2><p>Py2Neo gives an ability of interact with Neo4j easily with high flexibility. This introduction is by no means completed. For all the features of Py2Neo, please check out its <a href="https://py2neo.org/v5/">official documentation</a>.</p><footer><div class="post__tag-share"><ul class="post__tag"><li><a href="https://wattanit.github.io/wattanit.com/tags/database/">database</a></li><li><a href="https://wattanit.github.io/wattanit.com/tags/programming/">programming</a></li><li><a href="https://wattanit.github.io/wattanit.com/tags/python/">python</a></li></ul></div></footer></div></div></article></main><footer class="footer"><div class="footer__copyright">Powered by <a href="https://getpublii.com" target="_blank" rel="nofollow noopener">Publii</a></div></footer></div></div><script defer="defer" src="https://wattanit.github.io/wattanit.com/assets/js/scripts.min.js?v=babd20e2a0a25821e63a0529c9feaae0"></script><script>var images = document.querySelectorAll('img[loading]');
+   
+           for (var i = 0; i < images.length; i++) {
+               if (images[i].complete) {
+                   images[i].classList.add('is-loaded');
+               } else {
+                   images[i].addEventListener('load', function () {
+                       this.classList.add('is-loaded');
+                   }, false);
+               }
+           }</script></body></html>
