@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>wattanit.com</title>
-    <link href="https://wattanit.github.io/wattanit.com/feed.xml" rel="self" />
-    <link href="https://wattanit.github.io/wattanit.com" />
+    <link href="https://wattanit.com/feed.xml" rel="self" />
+    <link href="https://wattanit.com" />
     <updated>2021-07-28T21:39:36+07:00</updated>
     <author>
         <name>Wattanit Hotrakool</name>
     </author>
-    <id>https://wattanit.github.io/wattanit.com</id>
+    <id>https://wattanit.com</id>
 
     <entry>
         <title>About</title>
         <author>
             <name>Wattanit Hotrakool</name>
         </author>
-        <link href="https://wattanit.github.io/wattanit.com/about.html"/>
-        <id>https://wattanit.github.io/wattanit.com/about.html</id>
+        <link href="https://wattanit.com/about.html"/>
+        <id>https://wattanit.com/about.html</id>
 
         <updated>2021-07-28T21:39:36+07:00</updated>
             <summary>
@@ -58,26 +58,26 @@
         <author>
             <name>Wattanit Hotrakool</name>
         </author>
-        <link href="https://wattanit.github.io/wattanit.com/research.html"/>
-        <id>https://wattanit.github.io/wattanit.com/research.html</id>
+        <link href="https://wattanit.com/research.html"/>
+        <id>https://wattanit.com/research.html</id>
 
         <updated>2021-07-28T21:22:43+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://wattanit.github.io/wattanit.com/media/posts/17/martin-adams-_OZCl4XcpRw-unsplash.jpg" alt="" />
+                        <img src="https://wattanit.com/media/posts/17/martin-adams-_OZCl4XcpRw-unsplash.jpg" alt="" />
                      Financial credibility prediction from financial and non-financial activities Credit and repayability predictions are some of the underlying decision making information used by banks everywhere. While commonly used credit scoring models use previous payment history for prediction, there are cases where only the basic money-related&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://wattanit.github.io/wattanit.com/media/posts/17/martin-adams-_OZCl4XcpRw-unsplash.jpg" alt="" />
+                    <img src="https://wattanit.com/media/posts/17/martin-adams-_OZCl4XcpRw-unsplash.jpg" alt="" />
                 
     <h2 id="financial-credibility-prediction-from-financial-and-nonfinancial-activities">
       Financial credibility prediction from financial and non-financial activities
     </h2>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/17/fabian-blank-pElSkGRA2NU-unsplash.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/17/responsive/fabian-blank-pElSkGRA2NU-unsplash-xs.jpg 300w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/fabian-blank-pElSkGRA2NU-unsplash-sm.jpg 480w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/fabian-blank-pElSkGRA2NU-unsplash-md.jpg 768w"  height="1000" width="1500" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/17/fabian-blank-pElSkGRA2NU-unsplash.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/17/responsive/fabian-blank-pElSkGRA2NU-unsplash-xs.jpg 300w ,https://wattanit.com/media/posts/17/responsive/fabian-blank-pElSkGRA2NU-unsplash-sm.jpg 480w ,https://wattanit.com/media/posts/17/responsive/fabian-blank-pElSkGRA2NU-unsplash-md.jpg 768w"  height="1000" width="1500" alt="" />
       
     </figure>
 
@@ -90,7 +90,7 @@
     </h2>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/17/research-6-436x287.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-6-436x287-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-6-436x287-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-6-436x287-md.png 768w"  height="287" width="436" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/17/research-6-436x287.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/17/responsive/research-6-436x287-xs.png 300w ,https://wattanit.com/media/posts/17/responsive/research-6-436x287-sm.png 480w ,https://wattanit.com/media/posts/17/responsive/research-6-436x287-md.png 768w"  height="287" width="436" alt="" />
       
     </figure>
 
@@ -103,7 +103,7 @@
     </h2>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/17/research-5-436x245.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-5-436x245-xs.jpg 300w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-5-436x245-sm.jpg 480w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-5-436x245-md.jpg 768w"  height="245" width="436" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/17/research-5-436x245.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/17/responsive/research-5-436x245-xs.jpg 300w ,https://wattanit.com/media/posts/17/responsive/research-5-436x245-sm.jpg 480w ,https://wattanit.com/media/posts/17/responsive/research-5-436x245-md.jpg 768w"  height="245" width="436" alt="" />
       
     </figure>
 
@@ -116,7 +116,7 @@
     </h2>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/17/research-4-436x436.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-4-436x436-xs.jpg 300w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-4-436x436-sm.jpg 480w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-4-436x436-md.jpg 768w"  height="436" width="436" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/17/research-4-436x436.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/17/responsive/research-4-436x436-xs.jpg 300w ,https://wattanit.com/media/posts/17/responsive/research-4-436x436-sm.jpg 480w ,https://wattanit.com/media/posts/17/responsive/research-4-436x436-md.jpg 768w"  height="436" width="436" alt="" />
       
     </figure>
 
@@ -129,7 +129,7 @@
     </h2>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/17/research-3-320x320.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-3-320x320-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-3-320x320-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-3-320x320-md.png 768w"  height="320" width="320" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/17/research-3-320x320.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/17/responsive/research-3-320x320-xs.png 300w ,https://wattanit.com/media/posts/17/responsive/research-3-320x320-sm.png 480w ,https://wattanit.com/media/posts/17/responsive/research-3-320x320-md.png 768w"  height="320" width="320" alt="" />
       
     </figure>
 
@@ -142,7 +142,7 @@
     </h2>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/17/research-2-273x320.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-2-273x320-xs.jpg 300w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-2-273x320-sm.jpg 480w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-2-273x320-md.jpg 768w"  height="320" width="273" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/17/research-2-273x320.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/17/responsive/research-2-273x320-xs.jpg 300w ,https://wattanit.com/media/posts/17/responsive/research-2-273x320-sm.jpg 480w ,https://wattanit.com/media/posts/17/responsive/research-2-273x320-md.jpg 768w"  height="320" width="273" alt="" />
       
     </figure>
 
@@ -155,7 +155,7 @@
     </h2>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/17/research-1-300x300.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-1-300x300-xs.jpg 300w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-1-300x300-sm.jpg 480w ,https://wattanit.github.io/wattanit.com/media/posts/17/responsive/research-1-300x300-md.jpg 768w"  height="300" width="300" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/17/research-1-300x300.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/17/responsive/research-1-300x300-xs.jpg 300w ,https://wattanit.com/media/posts/17/responsive/research-1-300x300-sm.jpg 480w ,https://wattanit.com/media/posts/17/responsive/research-1-300x300-md.jpg 768w"  height="300" width="300" alt="" />
       
     </figure>
 
@@ -178,21 +178,21 @@
         <author>
             <name>Wattanit Hotrakool</name>
         </author>
-        <link href="https://wattanit.github.io/wattanit.com/python-package-management-with-pipenv.html"/>
-        <id>https://wattanit.github.io/wattanit.com/python-package-management-with-pipenv.html</id>
+        <link href="https://wattanit.com/python-package-management-with-pipenv.html"/>
+        <id>https://wattanit.com/python-package-management-with-pipenv.html</id>
             <category term="python"/>
             <category term="programming"/>
 
         <updated>2021-07-28T19:04:50+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://wattanit.github.io/wattanit.com/media/posts/16/brandable-box-8mCsyImZRGY-unsplash.jpg" alt="" />
+                        <img src="https://wattanit.com/media/posts/16/brandable-box-8mCsyImZRGY-unsplash.jpg" alt="" />
                     Python Package Management with Pipenv Pipenv is a modern package manager that brings the best package managing practices found in other languages to Python. To understand the benefits of Pipenv, let’s start with the reason why we should use a package manager. It is trivial&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://wattanit.github.io/wattanit.com/media/posts/16/brandable-box-8mCsyImZRGY-unsplash.jpg" alt="" />
+                    <img src="https://wattanit.com/media/posts/16/brandable-box-8mCsyImZRGY-unsplash.jpg" alt="" />
                 <h1 id="python-package-management-with-pipenv">Python Package Management with Pipenv</h1>
 <p><a href="https://pipenv.pypa.io/">Pipenv</a> is a modern package manager that brings the best package managing practices found in other languages to Python. To understand the benefits of Pipenv, let’s start with the reason why we should use a package manager. </p>
 <h2 id="why-do-package-management">Why do package management?</h2>
@@ -317,8 +317,8 @@ All the installed packages are visible to any programs running within this shell
         <author>
             <name>Wattanit Hotrakool</name>
         </author>
-        <link href="https://wattanit.github.io/wattanit.com/getting-started-with-neo4j-with-python.html"/>
-        <id>https://wattanit.github.io/wattanit.com/getting-started-with-neo4j-with-python.html</id>
+        <link href="https://wattanit.com/getting-started-with-neo4j-with-python.html"/>
+        <id>https://wattanit.com/getting-started-with-neo4j-with-python.html</id>
             <category term="python"/>
             <category term="programming"/>
             <category term="database"/>
@@ -337,7 +337,7 @@ To do that we were required to switch to using a new set of tools to work with, 
 <p>Graph in the perspective of data scientists and programmers are different from what people tend to think of as graphs.
 They are not 2D plots (or sometimes 3D) that show relations between things (which is technically called a chart), but rather a structure representing relationships between objects. 
 The graph here refers to the kind of graph talked about by mathematicians, a structure consists of objects (nodes) and their relationship (edges)</p>
-<p><figure class="post__image"><img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/15/6n-graf.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/15/responsive/6n-graf-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/15/responsive/6n-graf-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/15/responsive/6n-graf-md.png 768w"  alt="Image description" width="266" height="176" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://wattanit.com/media/posts/15/6n-graf.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/15/responsive/6n-graf-xs.png 300w ,https://wattanit.com/media/posts/15/responsive/6n-graf-sm.png 480w ,https://wattanit.com/media/posts/15/responsive/6n-graf-md.png 768w"  alt="Image description" width="266" height="176" /></figure></p>
 <p>For data scientists and programmers, they take this meaning further. 
 To them, graph is a kind of data structure designed and optimised to represent data with relations. 
 Roughly speaking, to work with data, there are usually two tools in the stack involved:</p>
@@ -419,7 +419,7 @@ CREATE (A:PersonType {name:&quot;A demo name&quot;})-[ab:To]-&gt;(B:PersonType {
 <p>The result can be viewed using Neo4j browser (open via Neo4j Desktop app) and run the following cypher query</p>
 <pre><code>MATCH (m) RETURN m
 </code></pre>
-<p><figure class="post__image"><img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/15/graph1.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph1-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph1-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph1-md.png 768w"  alt="Image description" width="1722" height="1024" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://wattanit.com/media/posts/15/graph1.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/15/responsive/graph1-xs.png 300w ,https://wattanit.com/media/posts/15/responsive/graph1-sm.png 480w ,https://wattanit.com/media/posts/15/responsive/graph1-md.png 768w"  alt="Image description" width="1722" height="1024" /></figure></p>
 <h3 id="merge-subgraph">Merge subgraph</h3>
 <p>New subgraph can be merge into the existing graph using the merge operation like so:</p>
 <pre><code class="language-python"># merge (update) a node and relationship into the graph 
@@ -432,7 +432,7 @@ graph.merge(da, &quot;A demo name&quot;, &quot;name&quot;)
 <pre><code># Cypher
 MATCH (A {name:&quot;A demo name&quot;}) MERGE (D:AnimalType {name: &quot;Dogg&quot;})-[:belong_to]-&gt;(A)
 </code></pre>
-<p><figure class="post__image"><img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/15/graph2.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph2-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph2-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph2-md.png 768w"  alt="Image description" width="1722" height="1022" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://wattanit.com/media/posts/15/graph2.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/15/responsive/graph2-xs.png 300w ,https://wattanit.com/media/posts/15/responsive/graph2-sm.png 480w ,https://wattanit.com/media/posts/15/responsive/graph2-md.png 768w"  alt="Image description" width="1722" height="1022" /></figure></p>
 <h3 id="delete-subgraph">Delete subgraph</h3>
 <p>The subgraph could be deleted from the main graph. 
 There are two kind of deletion in Py2Neo: delete and separate.
@@ -625,7 +625,7 @@ E = AnimalType(&quot;Birdy&quot;)
 E.addOwner(B, years=1)
 graph.create(E)
 </code></pre>
-<p><figure class="post__image"><img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/15/graph3.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph3-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph3-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/15/responsive/graph3-md.png 768w"  alt="Image description" width="1720" height="1022" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://wattanit.com/media/posts/15/graph3.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/15/responsive/graph3-xs.png 300w ,https://wattanit.com/media/posts/15/responsive/graph3-sm.png 480w ,https://wattanit.com/media/posts/15/responsive/graph3-md.png 768w"  alt="Image description" width="1720" height="1022" /></figure></p>
 <p>OGM can also be used to match the object in the main graph too.</p>
 <pre><code class="language-python"># Match object in graph
 target = PersonType.match(graph, &quot;A demo name&quot;)
@@ -648,21 +648,21 @@ For all the features of Py2Neo, please check out its <a href="https://py2neo.org
         <author>
             <name>Wattanit Hotrakool</name>
         </author>
-        <link href="https://wattanit.github.io/wattanit.com/introduction-to-professional-text-editors.html"/>
-        <id>https://wattanit.github.io/wattanit.com/introduction-to-professional-text-editors.html</id>
+        <link href="https://wattanit.com/introduction-to-professional-text-editors.html"/>
+        <id>https://wattanit.com/introduction-to-professional-text-editors.html</id>
             <category term="programming"/>
             <category term="editors"/>
 
         <updated>2021-07-28T18:58:35+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://wattanit.github.io/wattanit.com/media/posts/14/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" />
+                        <img src="https://wattanit.com/media/posts/14/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" />
                     2020 remark: This article was first published in 2016 under the name Vim resources (and other text editors). It’s been 4 years since this article was first published yet the landscape of text editing remains the same, everything follows still valid. Text editor is the&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://wattanit.github.io/wattanit.com/media/posts/14/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" />
+                    <img src="https://wattanit.com/media/posts/14/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" />
                 <p><em>2020 remark: 
 This article was first published in 2016 under the name <a href="https://rorasa.wordpress.com/2016/09/05/vim-resources-and-other-text-editors/">Vim resources (and other text editors)</a>.</em></p>
 <p><em>It’s been 4 years since this article was first published yet the landscape of text editing remains the same, everything follows still valid.</em></p>
@@ -699,21 +699,21 @@ This article was first published in 2016 under the name <a href="https://rorasa.
         <author>
             <name>Wattanit Hotrakool</name>
         </author>
-        <link href="https://wattanit.github.io/wattanit.com/the-most-accurate-pi-day.html"/>
-        <id>https://wattanit.github.io/wattanit.com/the-most-accurate-pi-day.html</id>
+        <link href="https://wattanit.com/the-most-accurate-pi-day.html"/>
+        <id>https://wattanit.com/the-most-accurate-pi-day.html</id>
             <category term="mathematics"/>
             <category term="funny"/>
 
         <updated>2021-07-28T18:56:27+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://wattanit.github.io/wattanit.com/media/posts/13/pi_pie2.jpg" alt="" />
+                        <img src="https://wattanit.com/media/posts/13/pi_pie2.jpg" alt="" />
                      2020 remark: This article was first published in 2015 under the name The most accurate Pi Day!. Today (14 March 2015) is Pi Day! Usually people always regard 14 March of every year as Pi Day. But Pi Day this year is very, very&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://wattanit.github.io/wattanit.com/media/posts/13/pi_pie2.jpg" alt="" />
+                    <img src="https://wattanit.com/media/posts/13/pi_pie2.jpg" alt="" />
                 
   <p>
     <i>2020 remark: <br>This article was first published in 2015 under the name <a href="https://rorasa.wordpress.com/2015/03/14/the-most-accurate-pi-day/" target="_blank">The most accurate Pi Day!</a>.</i>
@@ -750,8 +750,8 @@ This article was first published in 2016 under the name <a href="https://rorasa.
         <author>
             <name>Wattanit Hotrakool</name>
         </author>
-        <link href="https://wattanit.github.io/wattanit.com/which-reference-manager-software-is-best-for-you-2014-edition.html"/>
-        <id>https://wattanit.github.io/wattanit.com/which-reference-manager-software-is-best-for-you-2014-edition.html</id>
+        <link href="https://wattanit.com/which-reference-manager-software-is-best-for-you-2014-edition.html"/>
+        <id>https://wattanit.com/which-reference-manager-software-is-best-for-you-2014-edition.html</id>
             <category term="software"/>
             <category term="research"/>
             <category term="knowledge management"/>
@@ -759,13 +759,13 @@ This article was first published in 2016 under the name <a href="https://rorasa.
         <updated>2021-07-28T18:52:30+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://wattanit.github.io/wattanit.com/media/posts/12/martin-adams-_OZCl4XcpRw-unsplash.jpg" alt="" />
+                        <img src="https://wattanit.com/media/posts/12/martin-adams-_OZCl4XcpRw-unsplash.jpg" alt="" />
                      2020 remark: This article was first published in 2014 under the name Which reference manager software is best for you? [2014 edition]. I was having a problem with my reference manager. When I realised it takes too much time using it than do things&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://wattanit.github.io/wattanit.com/media/posts/12/martin-adams-_OZCl4XcpRw-unsplash.jpg" alt="" />
+                    <img src="https://wattanit.com/media/posts/12/martin-adams-_OZCl4XcpRw-unsplash.jpg" alt="" />
                 
   <p>
     <em>2020 remark: <br>This article was first published in 2014 under the name <a href="https://rorasa.wordpress.com/2014/10/21/which-reference-manager-software-is-best-for-you-2014-edition/" target="_blank">Which reference manager software is best for you? [2014 edition]</a>.</em>
@@ -808,13 +808,13 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   <div  class="gallery-wrapper gallery-wrapper--center">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/colwiz1.png" data-size="1390x776">
-        <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/colwiz1-thumbnail.png" height="429" width="768" alt="" />
+      <a href="https://wattanit.com/media/posts/12/gallery/colwiz1.png" data-size="1390x776">
+        <img loading="lazy" src="https://wattanit.com/media/posts/12/gallery/colwiz1-thumbnail.png" height="429" width="768" alt="" />
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/colwiz2.png" data-size="1356x787">
-        <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/colwiz2-thumbnail.png" height="446" width="768" alt="" />
+      <a href="https://wattanit.com/media/posts/12/gallery/colwiz2.png" data-size="1356x787">
+        <img loading="lazy" src="https://wattanit.com/media/posts/12/gallery/colwiz2-thumbnail.png" height="446" width="768" alt="" />
       </a>
       
     </figure>
@@ -848,7 +848,7 @@ This article was first published in 2016 under the name <a href="https://rorasa.
     </h3>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/12/endnote1.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/12/responsive/endnote1-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/12/responsive/endnote1-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/12/responsive/endnote1-md.png 768w"  height="595" width="1194" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/12/endnote1.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/12/responsive/endnote1-xs.png 300w ,https://wattanit.com/media/posts/12/responsive/endnote1-sm.png 480w ,https://wattanit.com/media/posts/12/responsive/endnote1-md.png 768w"  height="595" width="1194" alt="" />
       
     </figure>
 
@@ -881,13 +881,13 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   <div  class="gallery-wrapper gallery-wrapper--center">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/mendeley1.png" data-size="1153x654">
-        <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/mendeley1-thumbnail.png" height="436" width="768" alt="" />
+      <a href="https://wattanit.com/media/posts/12/gallery/mendeley1.png" data-size="1153x654">
+        <img loading="lazy" src="https://wattanit.com/media/posts/12/gallery/mendeley1-thumbnail.png" height="436" width="768" alt="" />
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/mendeley2.png" data-size="1152x653">
-        <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/mendeley2-thumbnail.png" height="435" width="768" alt="" />
+      <a href="https://wattanit.com/media/posts/12/gallery/mendeley2.png" data-size="1152x653">
+        <img loading="lazy" src="https://wattanit.com/media/posts/12/gallery/mendeley2-thumbnail.png" height="435" width="768" alt="" />
       </a>
       
     </figure>
@@ -921,7 +921,7 @@ This article was first published in 2016 under the name <a href="https://rorasa.
     </h3>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/12/zotero1.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/12/responsive/zotero1-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/12/responsive/zotero1-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/12/responsive/zotero1-md.png 768w"  height="501" width="915" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/12/zotero1.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/12/responsive/zotero1-xs.png 300w ,https://wattanit.com/media/posts/12/responsive/zotero1-sm.png 480w ,https://wattanit.com/media/posts/12/responsive/zotero1-md.png 768w"  height="501" width="915" alt="" />
       
     </figure>
 
@@ -954,13 +954,13 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   <div  class="gallery-wrapper gallery-wrapper--center">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/papers1.png" data-size="1294x761">
-        <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/papers1-thumbnail.png" height="452" width="768" alt="" />
+      <a href="https://wattanit.com/media/posts/12/gallery/papers1.png" data-size="1294x761">
+        <img loading="lazy" src="https://wattanit.com/media/posts/12/gallery/papers1-thumbnail.png" height="452" width="768" alt="" />
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/papers2.png" data-size="1293x761">
-        <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/papers2-thumbnail.png" height="452" width="768" alt="" />
+      <a href="https://wattanit.com/media/posts/12/gallery/papers2.png" data-size="1293x761">
+        <img loading="lazy" src="https://wattanit.com/media/posts/12/gallery/papers2-thumbnail.png" height="452" width="768" alt="" />
       </a>
       
     </figure>
@@ -996,13 +996,13 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   <div  class="gallery-wrapper gallery-wrapper--center">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/qiqqa1.png" data-size="1436x861">
-        <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/qiqqa1-thumbnail.png" height="460" width="768" alt="" />
+      <a href="https://wattanit.com/media/posts/12/gallery/qiqqa1.png" data-size="1436x861">
+        <img loading="lazy" src="https://wattanit.com/media/posts/12/gallery/qiqqa1-thumbnail.png" height="460" width="768" alt="" />
       </a>
       
     </figure><figure class="gallery__item">
-      <a href="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/qiqqa2.png" data-size="1439x862">
-        <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/12/gallery/qiqqa2-thumbnail.png" height="460" width="768" alt="" />
+      <a href="https://wattanit.com/media/posts/12/gallery/qiqqa2.png" data-size="1439x862">
+        <img loading="lazy" src="https://wattanit.com/media/posts/12/gallery/qiqqa2-thumbnail.png" height="460" width="768" alt="" />
       </a>
       
     </figure>
@@ -1076,8 +1076,8 @@ This article was first published in 2016 under the name <a href="https://rorasa.
         <author>
             <name>Wattanit Hotrakool</name>
         </author>
-        <link href="https://wattanit.github.io/wattanit.com/tuso-12th-anniversary-special-issue-the-history-of-tusos-logo.html"/>
-        <id>https://wattanit.github.io/wattanit.com/tuso-12th-anniversary-special-issue-the-history-of-tusos-logo.html</id>
+        <link href="https://wattanit.com/tuso-12th-anniversary-special-issue-the-history-of-tusos-logo.html"/>
+        <id>https://wattanit.com/tuso-12th-anniversary-special-issue-the-history-of-tusos-logo.html</id>
             <category term="history"/>
             <category term="design"/>
             <category term="arts"/>
@@ -1085,16 +1085,16 @@ This article was first published in 2016 under the name <a href="https://rorasa.
         <updated>2021-07-28T18:37:45+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://wattanit.github.io/wattanit.com/media/posts/11/tuso-logo-2.png" alt="" />
+                        <img src="https://wattanit.com/media/posts/11/tuso-logo-2.png" alt="" />
                      2020 remark: This article was first published in 2014 under the name TUSO 12th Anniversary Special Issue – The History of TUSO’s Logo. The following article is written in Thai as a special celebration for my orchestra’s 12th anniversary. เนื่องจากวันนี้ (27 มิถุนายน 2557) เป็นวันดีเนื่องในโอกาสที่เป็นวันครบรอบ&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://wattanit.github.io/wattanit.com/media/posts/11/tuso-logo-2.png" alt="" />
+                    <img src="https://wattanit.com/media/posts/11/tuso-logo-2.png" alt="" />
                 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/11/tuso-logo-history.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history-md.png 768w"  height="309" width="617" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/11/tuso-logo-history.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/11/responsive/tuso-logo-history-xs.png 300w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history-sm.png 480w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history-md.png 768w"  height="309" width="617" alt="" />
       
     </figure>
 
@@ -1111,7 +1111,7 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/11/tuso-logo.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-md.png 768w"  height="286" width="286" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/11/tuso-logo.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/11/responsive/tuso-logo-xs.png 300w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-sm.png 480w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-md.png 768w"  height="286" width="286" alt="" />
       
     </figure>
 
@@ -1128,7 +1128,7 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/11/tuso-logo-history_1.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_1-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_1-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_1-md.png 768w"  height="350" width="350" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/11/tuso-logo-history_1.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/11/responsive/tuso-logo-history_1-xs.png 300w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_1-sm.png 480w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_1-md.png 768w"  height="350" width="350" alt="" />
       
     </figure>
 
@@ -1141,7 +1141,7 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/11/tuso-logo-history_2.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_2-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_2-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_2-md.png 768w"  height="180" width="350" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/11/tuso-logo-history_2.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/11/responsive/tuso-logo-history_2-xs.png 300w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_2-sm.png 480w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_2-md.png 768w"  height="180" width="350" alt="" />
       
     </figure>
 
@@ -1150,7 +1150,7 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/11/0368e-bso-bangkok2bsymphony2borchestra.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/11/responsive/0368e-bso-bangkok2bsymphony2borchestra-xs.jpg 300w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/0368e-bso-bangkok2bsymphony2borchestra-sm.jpg 480w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/0368e-bso-bangkok2bsymphony2borchestra-md.jpg 768w"  height="168" width="200" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/11/0368e-bso-bangkok2bsymphony2borchestra.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/11/responsive/0368e-bso-bangkok2bsymphony2borchestra-xs.jpg 300w ,https://wattanit.com/media/posts/11/responsive/0368e-bso-bangkok2bsymphony2borchestra-sm.jpg 480w ,https://wattanit.com/media/posts/11/responsive/0368e-bso-bangkok2bsymphony2borchestra-md.jpg 768w"  height="168" width="200" alt="" />
       
     </figure>
 
@@ -1159,7 +1159,7 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/11/tuso-logo-history_3.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_3-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_3-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_3-md.png 768w"  height="180" width="350" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/11/tuso-logo-history_3.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/11/responsive/tuso-logo-history_3-xs.png 300w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_3-sm.png 480w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_3-md.png 768w"  height="180" width="350" alt="" />
       
     </figure>
 
@@ -1168,7 +1168,7 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/11/tuso-logo-history_4.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_4-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_4-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_4-md.png 768w"  height="350" width="350" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/11/tuso-logo-history_4.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/11/responsive/tuso-logo-history_4-xs.png 300w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_4-sm.png 480w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_4-md.png 768w"  height="350" width="350" alt="" />
       
     </figure>
 
@@ -1177,7 +1177,7 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/11/tuso-logo-history_5.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_5-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_5-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_5-md.png 768w"  height="350" width="350" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/11/tuso-logo-history_5.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/11/responsive/tuso-logo-history_5-xs.png 300w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_5-sm.png 480w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_5-md.png 768w"  height="350" width="350" alt="" />
       
     </figure>
 
@@ -1186,7 +1186,7 @@ This article was first published in 2016 under the name <a href="https://rorasa.
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/11/tuso-logo-history_6.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_6-xs.png 300w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_6-sm.png 480w ,https://wattanit.github.io/wattanit.com/media/posts/11/responsive/tuso-logo-history_6-md.png 768w"  height="285" width="285" alt="" />
+      <img loading="lazy" src="https://wattanit.com/media/posts/11/tuso-logo-history_6.png" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/11/responsive/tuso-logo-history_6-xs.png 300w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_6-sm.png 480w ,https://wattanit.com/media/posts/11/responsive/tuso-logo-history_6-md.png 768w"  height="285" width="285" alt="" />
       
     </figure>
 
@@ -1205,8 +1205,8 @@ This article was first published in 2016 under the name <a href="https://rorasa.
         <author>
             <name>Wattanit Hotrakool</name>
         </author>
-        <link href="https://wattanit.github.io/wattanit.com/nifti-2-mat-converter.html"/>
-        <id>https://wattanit.github.io/wattanit.com/nifti-2-mat-converter.html</id>
+        <link href="https://wattanit.com/nifti-2-mat-converter.html"/>
+        <id>https://wattanit.com/nifti-2-mat-converter.html</id>
             <category term="software"/>
             <category term="research"/>
             <category term="medical imaging"/>
@@ -1235,7 +1235,7 @@ _If there is any comments or bug notices, please leave it in the comment. _</p>
 <ul>
 <li>This program requires Matlab Compiler Runtime (MCR) to run. If you don’t have Matlab installed on your PC, you can download the MCR from <a href="http://www.mathworks.co.uk/products/compiler/mcr/">here</a></li>
 </ul>
-<p><figure class="post__image"><img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/10/nifti2mat.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/10/responsive/nifti2mat-xs.jpg 300w ,https://wattanit.github.io/wattanit.com/media/posts/10/responsive/nifti2mat-sm.jpg 480w ,https://wattanit.github.io/wattanit.com/media/posts/10/responsive/nifti2mat-md.jpg 768w"  alt="Image description" width="571" height="531" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://wattanit.com/media/posts/10/nifti2mat.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/10/responsive/nifti2mat-xs.jpg 300w ,https://wattanit.com/media/posts/10/responsive/nifti2mat-sm.jpg 480w ,https://wattanit.com/media/posts/10/responsive/nifti2mat-md.jpg 768w"  alt="Image description" width="571" height="531" /></figure></p>
 <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
 
             ]]>
@@ -1246,25 +1246,25 @@ _If there is any comments or bug notices, please leave it in the comment. _</p>
         <author>
             <name>Wattanit Hotrakool</name>
         </author>
-        <link href="https://wattanit.github.io/wattanit.com/why-is-it-so-easy-to-get-a-wrong-idea.html"/>
-        <id>https://wattanit.github.io/wattanit.com/why-is-it-so-easy-to-get-a-wrong-idea.html</id>
+        <link href="https://wattanit.com/why-is-it-so-easy-to-get-a-wrong-idea.html"/>
+        <id>https://wattanit.com/why-is-it-so-easy-to-get-a-wrong-idea.html</id>
             <category term="psychology"/>
             <category term="politics"/>
 
         <updated>2021-07-28T18:29:21+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://wattanit.github.io/wattanit.com/media/posts/9/alessandro-bianchi-_kdTyfnUFAc-unsplash.jpg" alt="" />
+                        <img src="https://wattanit.com/media/posts/9/alessandro-bianchi-_kdTyfnUFAc-unsplash.jpg" alt="" />
                     2020 remark: This article was first published in 2012 under the name Why is it so easy to get a wrong idea?. I saw several of my friends shared this picture on Facebook. This picture created by Paul Hamon, comparing a public transportation map (mostly&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://wattanit.github.io/wattanit.com/media/posts/9/alessandro-bianchi-_kdTyfnUFAc-unsplash.jpg" alt="" />
+                    <img src="https://wattanit.com/media/posts/9/alessandro-bianchi-_kdTyfnUFAc-unsplash.jpg" alt="" />
                 <p><em>2020 remark: 
 This article was first published in 2012 under the name <a href="https://rorasa.wordpress.com/2012/09/08/why-is-it-so-easy-to-get-a-wrong-idea/">Why is it so easy to get a wrong idea?</a>.</em></p>
 <p>I saw several of my friends shared this picture on Facebook.</p>
-<p><figure class="post__image"><img loading="lazy" src="https://wattanit.github.io/wattanit.com/media/posts/9/304521_10151204958996900_1299744359_n.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.github.io/wattanit.com/media/posts/9/responsive/304521_10151204958996900_1299744359_n-xs.jpg 300w ,https://wattanit.github.io/wattanit.com/media/posts/9/responsive/304521_10151204958996900_1299744359_n-sm.jpg 480w ,https://wattanit.github.io/wattanit.com/media/posts/9/responsive/304521_10151204958996900_1299744359_n-md.jpg 768w"  alt="Image description" width="960" height="809" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://wattanit.com/media/posts/9/304521_10151204958996900_1299744359_n.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="https://wattanit.com/media/posts/9/responsive/304521_10151204958996900_1299744359_n-xs.jpg 300w ,https://wattanit.com/media/posts/9/responsive/304521_10151204958996900_1299744359_n-sm.jpg 480w ,https://wattanit.com/media/posts/9/responsive/304521_10151204958996900_1299744359_n-md.jpg 768w"  alt="Image description" width="960" height="809" /></figure></p>
 <p>This picture created by <a href="http://paulhamon.com/">Paul Hamon</a>, comparing a public transportation map (mostly subways) between two cities, which are Bangkok , Thailand and Singapore city (which is a country on its own).</p>
 <p>What do you think when you see this picture?  Is it obvious that Bangkok’s transport is far more expensive than Singapore’s? Is this a clear evidence of authority’s corruption?</p>
 <p>Most of those who saw this picture suddenly said “Of course, because our politicians are so bad and they corrupt everything!”  Many of them also added in more explanation already “You see!, 10.5million dollars against 3.5 million dollars, and look at what we have! They must have corrupted lots of money already.”  They are so sure that the reason why Bangkok’s transportation is the way behind Singapore’s is because of their government “shared some money” between themselves. I did not say whether they are totally clean or not, or whether corruption affected any of these progresses.  But the thing I want to point out is this <strong>“Do you really think such a large train network could be cost only $3.5 million?”</strong></p>
